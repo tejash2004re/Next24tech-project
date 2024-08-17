@@ -55,39 +55,69 @@ Body Section
 Header: Contains navigation, profile image, and social media links.
 Main:
 Hero Section: Features a background image, name, and a short description with a typewriter effect.
+
 About Section: Personal introduction, skills, and profile details.
+
 Skills Section: Displays skill levels in HTML, CSS, JavaScript, jQuery, Bootstrap, and React.
+
 Resume Section: Lists education and professional experience.
+
 Contact Section: Provides contact details and a form for sending messages.
+
 Footer and Additional Elements
 
+
 Scroll-to-top button.
-Preloader for better user experience.
+
+Preloader for better user experience.    
+
 Vendor JS files and custom JS file for additional functionality.
+
 3. Technologies Used
+   
 3.1 Frontend Technologies
+   
 HTML5: Structure of the website.
+
 CSS3: Styling of the website, with custom styles located in assets/css/main.css.
+
 JavaScript: Dynamic elements and interactions. Libraries used include:
+
 Bootstrap for responsive design.
+
 AOS (Animate On Scroll) for scroll animations.
+
 Typed.js for typewriter effect.
+
 Swiper for carousel functionality.
+
 GLightbox for lightbox functionality.
+
+
 3.2 Fonts
 Google Fonts:
 Roboto
 Poppins
 Raleway
+
 3.3 Vendor Libraries
+
 Bootstrap: CSS framework for responsive design.
+
 Bootstrap Icons: Icons for navigation and other UI elements.
+
 AOS: Animation on scroll library.
+
 Typed.js: For typewriter text effect.
+
 GLightbox: Lightbox for image viewing.
+
 Swiper: For carousel and slider functionality.
+
 Isotope: For dynamic grid layout.
-4. Key Features
+
+5. Key Features
+   
 4.1 Header
 Navigation Menu: Includes links to Home, About, Resume, and Contact sections.
 Social Links: Direct links to Instagram and LinkedIn profiles.
@@ -104,7 +134,7 @@ Professional Experience: Summarizes internships and projects.
 4.6 Contact Section
 Contact Information: Address, phone number, and email.
 Contact Form: For user inquiries and messages.
-5. Setup Instructions
+7. Setup Instructions
 5.1 Local Development
 Clone Repository:
 
@@ -144,6 +174,8 @@ The main content starts with a large, full-width image followed by an "About Us"
 The document also includes commented-out code for a carousel slider, which is not currently active but could be used to display a series of images in a rotating slideshow.
 
 At the end of the <body>, several JavaScript files are included for additional functionality, such as jQuery, Popper.js, and Bootstrap's JavaScript.
+
+Sun Educations offers a user-friendly website featuring a range of educational courses, including computer science, health and wellness, language learning, finance, and culinary arts, with a responsive design and accessible navigation.
 
 Next, there is a "Services" section featuring three service cards. Each card includes an image and a brief description of the service, with links to further details or related pages like the course list and an online bookstore. One card is marked as "Coming Soon."
 
