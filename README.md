@@ -12,6 +12,7 @@ You can download the zip file and extart the file and you can run in vscode or o
 
 
  1st project
+![image](https://github.com/user-attachments/assets/a0b24e83-9bfc-4464-b9b2-8222c45c7d78)
 
 
 it's an coffee website.. Where the features are 
