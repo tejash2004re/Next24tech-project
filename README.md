@@ -29,7 +29,107 @@ it's an coffee website.. Where the features are
 
 ![image](https://github.com/user-attachments/assets/05a77aef-a66b-43df-a757-99c28d34c1be)
 
-* This is my portfolio where i added my details and more....
+TEJASHWIN S - Portfolio Website Documentation
+1. Overview
+The portfolio website for Tejashwin S showcases skills, experience, and contact details in a professional and engaging manner. This document outlines the structure, technologies used, and key components of the site.
+
+2. Project Structure
+2.1 File Structure
+index.html: Main HTML file for the portfolio.
+assets/:
+img/: Directory for images.
+vendor/: Third-party CSS and JS libraries.
+css/: Custom CSS files.
+js/: Custom JavaScript files.
+forms/:
+contact.php: PHP file for handling contact form submissions.
+2.2 HTML Structure
+The HTML file is divided into several key sections:
+
+Head Section
+
+Meta tags for charset, viewport, description, and keywords.
+Links to favicons, fonts, and CSS files.
+Body Section
+
+Header: Contains navigation, profile image, and social media links.
+Main:
+Hero Section: Features a background image, name, and a short description with a typewriter effect.
+About Section: Personal introduction, skills, and profile details.
+Skills Section: Displays skill levels in HTML, CSS, JavaScript, jQuery, Bootstrap, and React.
+Resume Section: Lists education and professional experience.
+Contact Section: Provides contact details and a form for sending messages.
+Footer and Additional Elements
+
+Scroll-to-top button.
+Preloader for better user experience.
+Vendor JS files and custom JS file for additional functionality.
+3. Technologies Used
+3.1 Frontend Technologies
+HTML5: Structure of the website.
+CSS3: Styling of the website, with custom styles located in assets/css/main.css.
+JavaScript: Dynamic elements and interactions. Libraries used include:
+Bootstrap for responsive design.
+AOS (Animate On Scroll) for scroll animations.
+Typed.js for typewriter effect.
+Swiper for carousel functionality.
+GLightbox for lightbox functionality.
+3.2 Fonts
+Google Fonts:
+Roboto
+Poppins
+Raleway
+3.3 Vendor Libraries
+Bootstrap: CSS framework for responsive design.
+Bootstrap Icons: Icons for navigation and other UI elements.
+AOS: Animation on scroll library.
+Typed.js: For typewriter text effect.
+GLightbox: Lightbox for image viewing.
+Swiper: For carousel and slider functionality.
+Isotope: For dynamic grid layout.
+4. Key Features
+4.1 Header
+Navigation Menu: Includes links to Home, About, Resume, and Contact sections.
+Social Links: Direct links to Instagram and LinkedIn profiles.
+4.2 Hero Section
+Background Image: Eye-catching image with a typewriter effect for displaying role.
+4.3 About Section
+Personal Introduction: Detailed information about education, internships, and current learning endeavors.
+Skills and Profile: Includes a profile picture and skill levels.
+4.4 Skills Section
+Progress Bars: Visually represents skill levels in various technologies.
+4.5 Resume Section
+Education: Details of academic background.
+Professional Experience: Summarizes internships and projects.
+4.6 Contact Section
+Contact Information: Address, phone number, and email.
+Contact Form: For user inquiries and messages.
+5. Setup Instructions
+5.1 Local Development
+Clone Repository:
+
+bash
+Copy code
+git clone <repository-url>
+Navigate to Project Directory:
+
+bash
+Copy code
+cd portfolio-website
+Install Dependencies:
+(If applicable for local development environment)
+
+Open index.html in a browser to view the website.
+
+5.2 Deployment
+Hosting Platforms: Can be hosted on platforms like GitHub Pages, Netlify, or Vercel.
+Upload: Upload files to the chosen hosting service as per their guidelines.
+6. Contact Information
+For further inquiries or issues related to the portfolio website, please contact:
+
+Tejashwin S
+Email: tejashwin2004teju@gmail.com
+Phone: 7795500636
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 3rd Project
 
