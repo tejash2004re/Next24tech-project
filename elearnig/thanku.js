@@ -1,0 +1,3 @@
+function hello(){
+    alert({title}+"WOW GREATE CHOICE WE WILL SEND YOU PAYMENT OPTION IN YOUR EMAIN SOON ..HAVE A GOOD DAY  :)")
+}
