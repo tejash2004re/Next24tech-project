@@ -15,13 +15,13 @@ You can download the zip file and extart the file and you can run in vscode or o
 
 
 it's an coffee website.. Where the features are 
-** You can see the about us and why to choose us.. (added an more button the more details using jquery)
-** And you can see the your popular menu iteam and you can cart it using the button .. If you click the button an alter pop-ups and shows the thank for choosing the product.. At the same time we can see the top 
+ You can see the about us and why to choose us.. (added an more button the more details using jquery)
+ And you can see the your popular menu iteam and you can cart it using the button .. If you click the button an alter pop-ups and shows the thank for choosing the product.. At the same time we can see the top 
    right button .. when ever we click the cart button it add the number of the product you have been clicked. and if we click it .  It shows the nunber of product you have been choosen and total amount and you 
    can buy it by clicking the buy button
-** After clicking the button you may tranfer to another page to buy the product.
-** And you can also Book the table 
-** Finnaly you can see the address and Shop opeing time also 
+ After clicking the button you may tranfer to another page to buy the product.
+ And you can also Book the table 
+* Finnaly you can see the address and Shop opeing time also 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Contributing
