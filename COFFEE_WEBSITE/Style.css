@@ -1,0 +1,220 @@
+.back{
+    background-image: url("./Struct.jpg") ;
+    height: 400px;
+    max-width: 100%;
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 12rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.home .row {
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    gap: 1.5rem;
+}
+.home .row .content {
+    flex: 1 1 42rem;
+    color: white;
+    text-transform: uppercase;
+
+}
+#myVideo{
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+  }
+  .back1{
+    background-image: url("./image/24.jpeg");
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: brightness(50%); */
+    justify-content: center; text-align: center; color: white; padding-top: 5%;
+}
+.about-img-1,
+.about-info-1 {
+  float: left;
+  width: 50%;
+  padding: 5rem;
+  background-color: #E0E5EC;
+  padding: 1rem;
+  font-size: 20px;
+  font-family: RalewayELimport;
+}
+.about{
+    background-color: #E0E5EC;
+  }
+  .menu {
+    background: url(./image/bf3d6363ae37ef388f396d4911fd81ad.jpg) no-repeat ;
+    background-position: center;
+    background-size: cover;
+    
+  } 
+  
+*{  
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .menu-box{
+    background: url("./image/bf3d6363ae37ef388f396d4911fd81ad.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+  }
+  .menu-box{
+    display: block;
+  }
+/* #colo>.col:hover{
+  transition: 1s;
+  transform: scale(1.1);
+  background-color: burlywood;
+  color: black;
+  border-radius: 10%;
+
+
+} */
+#colo>.col{
+  margin-top: 5%;
+  margin-bottom: 2%;
+  margin-left: 10%;
+}
+.box>.border:hover{
+  transition: 1s;
+  transform: scale(1.1);
+  background-color:#FFED85;
+}
+.border>a:link{
+  text-decoration: none;
+  color: white;
+}
+
+   .box>img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.menu-main{
+  background: url(./image/bf3d6363ae37ef388f396d4911fd81ad.jpg) no-repeat ;
+    background-position: center;
+    background-size: cover;
+    color: whitesmoke;
+  }
+.book{
+  background: url("./image/download.jpeg") ;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  display: flex;
+  justify-content: center;
+  
+}
+.back2{
+  background-image: url("./image/map4.jpeg");
+  min-height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* filter: brightness(90%); */
+  padding-top: 40px;
+  display: grid;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  text-align: center; 
+}
+.opening{
+  background-image: url("./image/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* filter: brightness(90%) */
+}
+.last{
+
+  display: flex;
+  column-gap: 20px;
+}
+.opening{
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  padding-top: 10%;
+
+}
+.opening>h1,h5:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+.hidden1,#butto1{
+  display: none;
+  
+}
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+#more{
+display: none;
+}
+.fw-normal{
+  width: 30rem;
+}
+/* .menu-main>.box{
+margin-top: 20%;
+} */
+ .border{
+  border-radius: 20px;
+ }
+ .cart-icon {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding-left: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.notification {
+ text-align: center;
+ display: none;
+ 
+}
+.cart-content {
+  position: fixed;
+  top: 70px;
+  right: 20px;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  padding: 15px;
+  width: 300px;
+  display: none;
+  z-index: 1050;
+  max-height: 400px; /* Ensure it doesn't get too tall */
+  overflow-y: auto; /* Enable scrolling if too many items */
+}

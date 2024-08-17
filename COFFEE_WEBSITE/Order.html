@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        *{
+            color: white;
+        }
+        .checkout-container {
+            max-width: 900px;
+            margin: 30px auto;
+        }
+        .cart-item {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+        .cart-item:last-child {
+            border-bottom: none;
+        }
+        .total {
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+<body style="background: url(https://static.vecteezy.com/system/resources/thumbnails/023/981/217/small_2x/laptop-and-coffee-cup-on-black-background-top-view-with-copy-space-photo.jpeg);background-repeat: no-repeat;     background-size: cover;
+">
+    <div class="checkout-container">
+        <h1 class="mb-4">Checkout</h1>
+        <div class="row">
+            <!-- Shipping Information -->
+            <div class="col-md-6">
+                <h4>Shipping Information</h4>
+                <form id="shipping-form">
+                    <div class="mb-3">
+                        <label for="fullName" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="address" class="form-label">Address</label>
+                        <input type="text" class="form-control" id="address" placeholder="Enter your address" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="city" class="form-label">City</label>
+                        <input type="text" class="form-control" id="city" placeholder="Enter your city" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="postalCode" class="form-label">Postal Code</label>
+                        <input type="text" class="form-control" id="postalCode" placeholder="Enter your postal code" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="country" class="form-label">Country</label>
+                        <input type="text" class="form-control" id="country" placeholder="Enter your country" required>
+                    </div>
+                </form>
+            </div>
+            
+            <!-- Order Summary -->
+            <div class="col-md-6">
+                <div class="payment-method mt-3">
+                    <h4>Payment Method</h4>
+                    <select class="form-select" id="payment-method">
+                        <option value="credit-card">Credit Card</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="bank-transfer">Bank Transfer</option>
+                    </select>
+                </div>
+                <button class="btn btn-primary mt-3" id="checkout-button">Complete Purchase</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Retrieve cart data from local storage
+            const cart = JSON.parse(localStorage.getItem('cart')) || [];
+            const cartItemsContainer = $('#cart-items');
+            const totalPriceElement = $('#total-price');
+            let total = 0;
+
+            // Populate cart items
+            cart.forEach(item => {
+                const itemTotal = item.price * item.quantity;
+                total += itemTotal;
+                cartItemsContainer.append(`
+                    <div class="cart-item">
+                        <div class="row">
+                            <div class="col-8">${item.name} x ${item.quantity}</div>
+                            <div class="col-4 text-end">&#8377; ${itemTotal}</div>
+                        </div>
+                    </div>
+                `);
+            });
+
+            totalPriceElement.text(total);
+
+            $('#checkout-button').click(function() {
+                const fullName = $('#fullName').val();
+                const address = $('#address').val();
+                const city = $('#city').val();
+                const postalCode = $('#postalCode').val();
+                const country = $('#country').val();
+                const paymentMethod = $('#payment-method').val();
+
+                if (!fullName || !address || !city || !postalCode || !country) {
+                    alert('Please fill in all shipping details.');
+                    return;
+                }
+
+                alert(`Thank you for your purchase!\n\nDetails:\nName: ${fullName}\nAddress: ${address}\nCity: ${city}\nPostal Code: ${postalCode}\nCountry: ${country}\nPayment Method: ${paymentMethod}`);
+                // Implement actual checkout logic here (e.g., sending data to the server)
+            });
+        });
+    </script>
+</body>
+</html>

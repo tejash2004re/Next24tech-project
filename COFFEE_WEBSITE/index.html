@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap" rel="stylesheet"></head>
+    <link rel="stylesheet" href="./Style.css">
+    <script src="./Script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="back">
+        <section class="home" id="home">
+            <div class="row">
+                <div class="content"><h3>fresh coffee in the morning</h3>
+                </div>
+                
+        </section>
+    </div>
+<!-- ABOUT US OPEN -->
+<div class="about">
+    <br>
+      <br>
+      <section class="about-section-center-clearfix" style="display: inline; background-color: darkgrey;" id="id-about">
+        <article class="about-img-1">
+          <div class="about-picture-container" >
+            <img src="https://media1.tenor.com/images/086f61cfb16debdad7a5763fc3f2fd6c/tenor.gif?itemid=17799538" alt="">
+          </div>
+        </article>
+        <article class="about-info-1">
+          <div class="about-scroll" id="id-about-scroll">
+            <h2 class="section-title">WHY TO CHOOSE US ?</h2>
+          <p class="about-text">
+                Choosing our coffee shop ensures you experience premium quality coffee sourced from the finest growers worldwide, expertly roasted to perfection by skilled artisans. <p id="more">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam eaque nesciunt, commodi rem aut vitae ut amet dolores eligendi mollitia est voluptatibus sequi? Sapiente veritatis, quia impedit ab fugiat corrupti!
+                Illum suscipit eaque minima praesentium corrupti, similique quisquam eum blanditiis ipsum. Modi, harum nihil magnam est deleniti ex vitae cupiditate tempora, voluptas, mollitia sit inventore illo vel similique quibusdam quae.
+                Expedita ducimus odio voluptatem ipsum voluptate consequatur, consectetur ipsa unde excepturi reprehenderit aut quibusdam tempore vitae omnis placeat! Aut veniam rem quaerat enim voluptate error veritatis dolor est, dignissimos beatae!
+                Distinctio hic incidunt quae quidem soluta repellat nesciunt laudantium quasi possimus expedita consequuntur nisi dolores, molestias ut reprehenderit similique optio. Magni, animi fugit? Itaque sunt earum, at qui eaque vero.
+                Veritatis repellendus beatae aliquam aspernatur ratione distinctio, harum dignissimos alias doloribus et quasi eum exercitationem itaque, non, totam natus unde corrupti. Repellat dolor molestiae deleniti deserunt in, fugit dicta? Fugiat.</p>
+                <button type="button" id="butto" class="btn btn-outline-info">More ?</button>
+ 
+          </p>
+        </div>
+        <script>
+     
+          $(document).ready(function(){
+            
+            $("#butto").click(function(){
+              $("#more").show(1000);
+            });
+            $("#id-about-scroll").mouseleave(function(){
+              $("#more").hide(1000);
+            });
+          
+          });
+          </script>
+        </article>
+  
+        <div style="clear: both;"></div>
+      </section> <br>
+      <br>
+    </div>
+<!-- ABOUT CLOSED -->
+<!-- MENU OPENS-->
+<br>
+      <br>
+    </div>
+    <div class="back1">
+      <h1>OUR POPULAR MENU</h1>
+  </div>
+  <div class="menu-main">
+      <div class="container text-center" id="coloout">
+          <div class="row align-items-start" id="colo">
+              <!-- Example Product -->
+              <div class="col">
+                  <div class="box">
+                      <img src="image/menu-1.png" alt="">
+                      <h3>AMERICANO</h3>
+                      <span>&#8377; 49</span>
+                      <button class="btn btn-primary add-to-cart" data-item="AMERICANO" data-price="49">Add to Cart</button>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="box">
+                    <img src="image/menu-1.png" alt="">
+                    <h3>RED EYE</h3>
+                    <span>&#8377; 29</span>
+                    <button class="btn btn-primary add-to-cart" data-item="RED EYE" data-price="29">Add to Cart</button>
+                </div>
+            </div>
+              <div class="col">
+                <div class="box">
+                    <img src="image/menu-2.png" alt="">
+                    <h3>CAPPUCCINO</h3>
+                    <span>&#8377; 99</span>
+                    <button class="btn btn-primary add-to-cart" data-item="CAPPUCCINO" data-price="99">Add to Cart</button>
+                </div>
+            </div>
+            <div class="col">
+              <div class="box">
+                  <img src="image/menu-3.png" alt="">
+                  <h3>ESPRESSO</h3>
+                  <span>&#8377; 79</span>
+                  <button class="btn btn-primary add-to-cart" data-item="ESPRESSO" data-price="79">Add to Cart</button>
+              </div>
+          </div>
+          
+          <!-- <div class="col" >
+            <div class="box">
+                <img src="image/menu-4.png" alt="">
+                <h3>BLACK COFFEE</h3>
+                <span>&#8377; 39</span>
+                <button class="btn btn-primary add-to-cart" data-item="BLACK COFFEE" data-price="39">Add to Cart</button>
+            </div>
+        </div> -->
+        <div class="col">
+          <div class="box">
+              <img src="image/menu-5.png" alt="">
+              <h3>SHORT</h3>
+              <span>&#8377; 59</span>
+              <button class="btn btn-primary add-to-cart" data-item="SHORT" data-price="59">Add to Cart</button>
+          </div>
+      </div> <div class="col">
+        <div class="box">
+            <img src="image/menu-6.png" alt="">
+            <h3> MACCHIATO</h3>
+            <span>&#8377;149</span>
+            <button class="btn btn-primary add-to-cart" data-item="MACCHIATO" data-price="149">Add to Cart</button>
+    </div> </div>
+              <!-- Repeat for other products -->
+          </div>
+      </div>
+
+      <!-- Cart Icon -->
+      <div class="cart-icon" id="cartIcon">
+          <i class="bi bi-cart-fill"></i>
+          <span id="cartCount" class="badge bg-danger"> cart 0</span>
+      </div>
+      
+
+      <!-- Notification -->
+      <div class="notification" id="notification" >
+	               
+      </div>
+
+      <!-- Cart Content -->
+      <div class="cart-content" id="cartContent">
+          <h5>Your Cart</h5>
+          <ul id="cartItems"></ul>
+          <p id="totalPrice">Total: </p>
+          <a href="./Order.html" class="btn btn-primary mt-3">Checkout</a>
+          <button class="btn btn-secondary mt-3" id="closeCart">Close</button>
+      </div></div>
+  </div>
+
+  <!-- jQuery and Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+  <script>
+      $(document).ready(function() {
+          let cart = [];
+          let cartCount = 0;
+          let totalPrice = 0;
+
+          function updateCart() {
+              $('#cartItems').empty();
+              cart.forEach(item => {
+                  $('#cartItems').append(`<li>${item.name} - &#8377; ${item.price}</li>`);
+              });
+              $('#cartCount').text(cartCount);
+              $('#totalPrice').text(`Total: ${totalPrice} + GST`);
+          }
+
+          $('.add-to-cart').click(function() {
+              const itemName = $(this).data('item');
+              const itemPrice = $(this).data('price');
+
+              // Add item to cart
+              cart.push({ name: itemName, price: itemPrice });
+              cartCount++;
+              totalPrice += itemPrice;
+
+              // Show notification
+              $('#notification').fadeIn().delay(1000).fadeOut()
+
+              // Update cart display
+              updateCart();
+          });
+          $('.add-to-cart').click(function() {
+            alert("ADDED TO CART")
+                });
+
+          $('#cartIcon').click(function() {
+              $('#cartContent').toggle();
+          });
+
+          $('#closeCart').click(function() {
+              $('#cartContent').hide();
+          });
+
+      });
+  </script>
+  
+	
+
+  
+<div class="back1">
+  <h1>BOOK YOUR COFFEE TABLE</h1>
+</div>
+<div class="book">
+  <div class="card" style="width: 30rem;">
+<div class="container mt-5">
+  <form>
+      <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name">
+      </div>
+      <div class="mb-3">
+          <label for="phone" class="form-label">Phone Number</label>
+          <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+      </div>
+      <div class="mb-3">
+          <label for="date" class="form-label">Date</label>
+          <input type="date" class="form-control" id="date">
+      </div>
+      <div class="mb-3">
+          <label for="time" class="form-label">Time</label>
+          <input type="time" class="form-control" id="time">
+      </div>
+      <div class="mb-3">
+          <label for="people" class="form-label">Number of People</label>
+          <input type="number" class="form-control" id="people" min="1" max="20" value="1">
+      </div>
+      <div class="mb-3">
+          <label for="message" class="form-label">Additional Message</label>
+          <textarea class="form-control" id="message" rows="3" placeholder="Any special requests or notes"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  </div>
+</div>
+
+<div class="card" style="width: 30rem;">
+<img src="./image/download (1).jpeg" style="background-position: center;
+background-size: cover; height: 100%;">
+</div>
+</div>
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+<!--  -->
+<div>    <div class="back2">
+  <h1>OUR LOCATION</h1>
+    <div style="clear: both;"></div></div></div>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125406.10926609798!2d78.60662509509646!3d10.815833727970814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaf50ff2aecdad%3A0x6de02c3bedbbaea6!2sTiruchirappalli%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1722680754780!5m2!1sen!2sin" width="800" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+   
+    
+  </div>
+  <footer class="text-white text-center text-lg-start bg-dark" id="dark">
+  
+    <div class="container p-4">
+    
+      <div class="row mt-4">
+
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4 pb-1">Search something</h5>
+
+          <div class="form-outline form-white mb-4">
+            <input type="text" id="formControlLg" class="form-control form-control-lg" />
+            <label class="form-label" for="formControlLg">Search</label>
+          </div>
+
+          <ul class="fa-ul" style="margin-left: 1.65em;">
+            <li class="mb-3">
+              <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">TRICHY</span>
+            </li>
+            <li class="mb-3">
+              <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">tejashwin2004teju@gmail.com</span>
+            </li>
+            <li class="mb-3">
+              <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">7795500636</span>
+            </li>
+          </ul>
+        </div>
+   
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0" style="padding-left: 200px;">
+          <h5 class="text-uppercase mb-4">Opening hours</h5>
+
+          <table class="table text-white">
+            <tbody class="fw-normal">
+              <tr>
+                <td>Mon - Thu:</td>
+                <td>8am - 9pm</td>
+              </tr>
+              <tr>
+                <td>Fri - Sat:</td>
+                <td>8am - 1am</td>
+              </tr>
+              <tr>
+                <td>Sunday:</td>
+                <td>9am - 10pm</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+       
+      </div>
+    </div>
+  </footer>
+  </div>
+</body>
+</html>
