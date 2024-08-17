@@ -11,7 +11,7 @@ To get started, first clone the repository with `git clone https://github.com/te
 You can download the zip file and extart the file and you can run in vscode or other application 
 
 
-## 1st project
+ 1st project
 
 
 it's an coffee website.. Where the features are 
